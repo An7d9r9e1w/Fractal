@@ -60,10 +60,10 @@ static void	get_grad(t_data *vars, const unsigned int *colors, const int len)
 
 void	init_grad(t_data *vars)
 {
-	const unsigned int	colors[5] = {0, 0x00000080, 0x00ffffff,
-		0x00ffb000, 0};
+	const unsigned int	colors[7] = {0, 0x00000080, 0x00ffffff,
+		0x00ffb000, 0x00ffffff, 0x00000080, 0};
 
-	get_grad(vars, colors, 5);
+	get_grad(vars, colors, 7);
 }
 
 void	init_vars(t_data *vars)

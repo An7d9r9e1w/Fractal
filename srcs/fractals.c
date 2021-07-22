@@ -1,5 +1,6 @@
 #include <fractol.h>
 #include <my_complex.h>
+#include <math.h>
 
 static unsigned int	get_itered_color(t_data *vars, double x0, double y0, int i)
 {
@@ -8,8 +9,8 @@ static unsigned int	get_itered_color(t_data *vars, double x0, double y0, int i)
 	double	xx;
 	double	yy;
 
-	xx = x0 * x0;
-	yy = y0 * y0;
+	xx = pow(x0, 2);
+	yy = pow(y0, 2);
 	x = x0;
 	y = y0;
 	if (vars->fg)
@@ -21,10 +22,11 @@ static unsigned int	get_itered_color(t_data *vars, double x0, double y0, int i)
 	{
 		y = 2 * x * y + y0;
 		x = xx - yy + x0;
-		xx = x * x;
-		yy = y * y;
+		xx = pow(x, 2);
+		yy = pow(y, 2);
 	}
 	if (i < vars->deep)
+		//return (vars->grad[(i * 10) % GRAD_LEN]);
 		return (vars->grad[(int)((double)i / vars->deep * GRAD_LEN)]);
 	return (0);
 }

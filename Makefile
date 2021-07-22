@@ -9,7 +9,7 @@ OBJS := $(addprefix $(OBJDIR)/,$(notdir $(SRCS:%.c=%.o)))
 NAME := fractol
 
 CC := gcc
-CFLAGS := -Wall -Wextra -Werror -I $(INCDIR)/
+CFLAGS := -Wall -Wextra -Werror -O3 -I $(INCDIR)/
 MLXFLAGS := -lmlx -framework OpenGL -framework AppKit
 DEPFLAGS = -MT $@ -MMD -MF $(DEPDIR)/$*.tmpd
 
