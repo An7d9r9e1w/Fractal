@@ -26,8 +26,8 @@ static unsigned int	get_itered_color(t_data *vars, double x0, double y0, int i)
 		yy = pow(y, 2);
 	}
 	if (i < vars->deep)
-		//return (vars->grad[(i * 10) % GRAD_LEN]);
-		return (vars->grad[(int)((double)i / vars->deep * GRAD_LEN)]);
+		return (vars->grad[(i * 10) % GRAD_LEN]);
+		//return (vars->grad[(int)((double)i / vars->deep * GRAD_LEN)]);
 	return (0);
 }
 
