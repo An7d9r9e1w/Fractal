@@ -9,3 +9,14 @@ Controls:
 - Set presition: :arrow_backward: :arrow_forward:
 
 ![Alt-текст](https://github.com/An7d9r9e1w/Files-pool/blob/main/Mandelbrot.gif "Mandelbrot")
+
+## Julia set
+
+Additional controls:
+- Rotate: Z, X, C, V
+
+![Alt-текст](https://github.com/An7d9r9e1w/Files-pool/blob/main/Julia.gif "Julia")
+
+## Newton
+
+![Alt-текст](https://github.com/An7d9r9e1w/Files-pool/blob/main/Newton.gif "Newton")
