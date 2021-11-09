@@ -8,15 +8,15 @@ Controls:
 - Move: :arrow_up: :arrow_down: :arrow_left: :arrow_right:
 - Set presition: :arrow_backward: :arrow_forward:
 
-![Alt-текст](https://github.com/An7d9r9e1w/Files-pool/blob/main/Mandelbrot.gif "Mandelbrot")
+![Mandelbrot set](https://github.com/An7d9r9e1w/Files-pool/blob/main/Mandelbrot.gif "Mandelbrot")
 
 ## Julia set
 
 Additional controls:
 - Rotate: Z, X, C, V
 
-![Alt-текст](https://github.com/An7d9r9e1w/Files-pool/blob/main/Julia.gif "Julia")
+![Julia set](https://github.com/An7d9r9e1w/Files-pool/blob/main/Julia.gif "Julia")
 
 ## Newton
 
-![Alt-текст](https://github.com/An7d9r9e1w/Files-pool/blob/main/Newton.gif "Newton")
+![Newton fractal](https://github.com/An7d9r9e1w/Files-pool/blob/main/Newton.gif "Newton")
